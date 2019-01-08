@@ -15,7 +15,12 @@
 */
 
 //Code here
+var me = {
+  name: 'Vivian',
+  age: 22
+}
 
+me.name
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +31,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'Seven Lions',
+  food: 'Pizza',
+  person: 'Chris',
+  book: 'The Four Agreements',
+  movie: 'I dont have one. Sry, not sry.',
+  holiday: 'Thanksgiving'
+}
 
 
 /*
@@ -34,7 +46,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Tesla'
+favoriteThings.brand = 'apple'
 
 
 /*
@@ -42,7 +55,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 ////////// PROBLEM 3 //////////
@@ -56,7 +70,10 @@
 */
 
 //Code here
-
+let backPack = {}
+var item = 'firstPocket'
+backPack[item] 
+backPack.firstPocket = 'chapstick'
 
 
 /*
@@ -64,7 +81,7 @@
 */
 
 //Code here
-
+backPack
 
 
 /*
@@ -74,7 +91,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -97,7 +114,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
